@@ -9,13 +9,10 @@
     --success-color: #31D0AA;
 
     --primary-text: #434455;
-    --secondary-text: #8E8F99;
     --accent-color: #E7E9FC;
     --light-color: #F4F4FD;
 
-    --hero-bg: #2E2F42;
     --white-bg: #FFFFFF;
-    --footer-bg: #2f303a;
 
 }
 /* Styles reset */
@@ -28,6 +25,11 @@
 /* Body */
 body {
     font-family: var(--primary-font);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text);
     background-color: var(--white-bg);
    }
 /* Header */
@@ -44,4 +46,19 @@ body {
 }
 .logo.footer {
    color: var(--light-color);
+}
+.nav-link {
+   font-weight: 500;
+   color: var(--secondary-color);
+}
+.mail,
+.tel {
+   font-style: normal;
+   color: var(--primary-text);
+}
+.nav-link:hover,
+.nav-link:focus,
+.mail:hover,
+.mail:focus {
+   color: var(--pressed-state-color);
 }
