@@ -1,0 +1,31 @@
+/* Variables */
+:root {
+   --primary-font: 'Roboto', sans-serif;
+   --secondary-font: 'Raleway', sans-serif;
+
+    --primary-brand-color: #4D5AE5;
+    --pressed-state-color: #404BBF;
+    --secondary-color: #2E2F42;
+    --success-color: #31D0AA;
+
+    --primary-text: #434455;
+    --secondary-text: #8E8F99;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+
+    --hero-bg: #2E2F42;
+    --white-bg: #FFFFFF;
+    --footer-bg: #2f303a;
+
+}
+/* Styles reset */
+.list {
+   list-style: none;
+}
+.link {
+   text-decoration: none;
+}
+/* Body */
+body {
+    font-family: var(--primary-font);
+   }
