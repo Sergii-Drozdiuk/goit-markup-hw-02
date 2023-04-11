@@ -28,4 +28,20 @@
 /* Body */
 body {
     font-family: var(--primary-font);
+    background-color: var(--white-bg);
    }
+/* Header */
+.logo {
+   font-family: var(--secondary-font);
+   font-size: 18px;
+   line-height: 1.2;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: var(--secondary-color);
+}
+.logo-part {
+   color: var(--primary-brand-color);
+}
+.logo.footer {
+   color: var(--light-color);
+}
