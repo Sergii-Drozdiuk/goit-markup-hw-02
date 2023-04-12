@@ -1,19 +1,17 @@
 /* Variables */
 :root {
-   --primary-font: 'Roboto', sans-serif;
-   --secondary-font: 'Raleway', sans-serif;
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
 
     --primary-brand-color: #4D5AE5;
     --pressed-state-color: #404BBF;
     --secondary-color: #2E2F42;
+    --third-color: #FFFFFF;
     --success-color: #31D0AA;
 
     --primary-text: #434455;
     --accent-color: #E7E9FC;
     --light-color: #F4F4FD;
-
-    --white-bg: #FFFFFF;
-
 }
 /* Styles reset */
 .list {
@@ -30,7 +28,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--primary-text);
-    background-color: var(--white-bg);
+    background-color: var(--third-color);
    }
 /* Header */
 .logo {
@@ -51,14 +49,38 @@ body {
    font-weight: 500;
    color: var(--secondary-color);
 }
-.mail,
-.tel {
+.mail-link,
+.tel-link {
    font-style: normal;
    color: var(--primary-text);
 }
 .nav-link:hover,
 .nav-link:focus,
-.mail:hover,
-.mail:focus {
+.mail-link:hover,
+.mail-link:focus {
    color: var(--pressed-state-color);
+}
+/* Hero */
+.hero {
+background-color: var(--secondary-color);
+}
+.hero-title {
+    font-size: 56px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--third-color);
+}
+.hero-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--third-color);
+    background-color: var(--primary-brand-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+background-color: var(--pressed-state-color);
 }
