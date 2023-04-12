@@ -1,8 +1,5 @@
 /* Variables */
 :root {
-    --primary-font: 'Roboto', sans-serif;
-    --secondary-font: 'Raleway', sans-serif;
-
     --primary-brand-color: #4D5AE5;
     --pressed-state-color: #404BBF;
     --secondary-color: #2E2F42;
@@ -20,18 +17,23 @@
 .link {
    text-decoration: none;
 }
+/* Titles */
 .title {
     color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .section-title {
-    text-align: center;
-    text-transform: capitalize;
+    color: var(--secondary-color);
     font-size: 36px;
     line-height: 1.1;
+    text-align: center;
+    text-transform: capitalize;
 }
 /* Body */
 body {
-    font-family: var(--primary-font);
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -41,7 +43,7 @@ body {
    }
 /* Header */
 .logo {
-   font-family: var(--secondary-font);
+   font-family: 'Raleway', sans-serif;
    font-size: 18px;
    line-height: 1.2;
    letter-spacing: 0.03em;
@@ -74,7 +76,6 @@ background-color: var(--secondary-color);
     font-size: 56px;
     line-height: 1.1;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--third-color);
 }
 .hero-btn {
@@ -83,6 +84,7 @@ background-color: var(--secondary-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
     color: var(--third-color);
     background-color: var(--primary-brand-color);
 }
@@ -90,13 +92,13 @@ background-color: var(--secondary-color);
 .hero-btn:focus {
 background-color: var(--pressed-state-color);
 }
-/* Features */
-.features-title {
-   font-weight: 500;
-   font-size: 20px;
-   line-height: 1.2;
+/* Team */
+.team {
+   background-color: var(--light-color);
 }
-
+.team-card-discription {
+   background-color: var(--third-color);
+}
 /* Footer */
 .footer-section {
    background-color: var(--secondary-color);
