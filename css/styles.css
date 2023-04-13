@@ -63,16 +63,13 @@ body {
 .mail-tel {
   font-style: normal;
 }
-.mail-link,
-.tel-link {
+.mail-tel-link {
   color: inherit;
 }
 .nav-link:hover,
 .nav-link:focus,
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.mail-tel-link:hover,
+.mail-tel-link:focus {
   color: var(--pressed-state-color);
 }
 /* Hero */
