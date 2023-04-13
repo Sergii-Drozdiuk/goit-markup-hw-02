@@ -19,17 +19,17 @@
 }
 /* Titles */
 .title {
-  color: var(--secondary-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  color: var(--secondary-color);
 }
 .section-title {
-  color: var(--secondary-color);
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  color: var(--secondary-color);
 }
 /* Body */
 body {
@@ -113,19 +113,18 @@ body {
 /* --------------------------------
    Portfolio
    -------------------------------- */
-.filter {
-}
+
 .filter-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background: var(--light-color);
 }
-.projects {
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--third-color);
+  background-color: var(--pressed-state-color);
 }
-.list-item {
-}
-.project-foto {
-}
-.project-title {
-}
-.project-discr {
-}
-/* .visually-hidden {
-} */
