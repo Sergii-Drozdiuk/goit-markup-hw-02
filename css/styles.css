@@ -67,7 +67,9 @@ body {
 .nav-link:hover,
 .nav-link:focus,
 .mail-link:hover,
-.mail-link:focus {
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
   color: var(--pressed-state-color);
 }
 /* Hero */
@@ -98,7 +100,8 @@ body {
 .team {
   background-color: var(--light-color);
 }
-.team-card-discription {
+.team-card-description,
+.team-card {
   background-color: var(--third-color);
 }
 /* Footer */
@@ -120,6 +123,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: var(--primary-brand-color);
   background: var(--light-color);
 }
